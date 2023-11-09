@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(158, 143, 188);
+    text-align: center;
+    font-family: italic;
+}
+.form1{
+    display: flex;
+}
+.form2{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.form3{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.form4{
+    margin-top: 50px;
+}
+.western1{
+    display: flex;
+}
+.western2{
+    margin-top: 50px;
+  margin-left: 150px;
+}
+.western3{
+    margin-top: 50px;
+    margin-left: 550px;
+}
