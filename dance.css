@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(158, 143, 188);
+    background-color:white;
     text-align: center;
-    font-family: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .form1{
     display: flex;
@@ -19,12 +19,13 @@ body{
 }
 .western1{
     display: flex;
+    margin-left: 350px;
+    margin-top: 50px;
 }
 .western2{
     margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 60px;
 }
-.western3{
+.western{
     margin-top: 50px;
-    margin-left: 550px;
 }
