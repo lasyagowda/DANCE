@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-background-color: cadetblue;
+background-color:rgb(255, 0, 200);
 }
 p{
     font-size: x-large;
@@ -11,5 +11,18 @@ p{
 body{
     background-color: black;
     color: white;
+    font-size: large;
+    gap: 50px;
+    
+}
+button{
+
+    margin-left: 750px;
+    margin-top: 50px;
+}
+.infor{
+    
+    background-color: blue;
+    font-size: x-large;
 }
 
