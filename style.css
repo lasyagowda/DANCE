@@ -9,7 +9,8 @@ body{
 h1{
     text-align: center;
     font-family:italic;
-    background-color: rgb(255, 0, 200);;
+    background-color: rgb(255, 0, 200);
+    font-family: cursive;
 }
 .login {
     text-align: center;
@@ -27,6 +28,14 @@ h1{
 .login input{
     width: 200px;
     height: 30px;
-    
 
+}
+*{
+    background-repeat:no-repeat;
+   
+}
+
+p{
+    font-size: x-large;
+    font-family: cursive;
 }

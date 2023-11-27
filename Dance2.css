@@ -12,7 +12,7 @@ body{
     background-color: black;
     color: white;
     font-size: large;
-    gap: 50px;
+    gap: 100px;
     
 }
 button{
@@ -20,9 +20,14 @@ button{
     margin-left: 750px;
     margin-top: 50px;
 }
-.infor{
-    
-    background-color: blue;
-    font-size: x-large;
-}
 
+*{
+
+    background-repeat:no-repeat;
+    
+
+}
+body-background{
+    margin-left: 100px;
+
+}

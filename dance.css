@@ -5,10 +5,13 @@ body{
 }
 .form1{
     display: flex;
+    
+
 }
 .form2{
   margin-top: 50px;
   margin-left: 150px;
+  
 }
 .form3{
     margin-top: 50px;
@@ -16,18 +19,21 @@ body{
 }
 .form4{
     margin-top: 50px;
+    margin-left: 150px;
 }
 .western1{
     display: flex;
-    margin-left: 350px;
-    margin-top: 50px;
+   
+    gap: 100px;
 }
 .western2{
     margin-top: 50px;
   margin-left: 60px;
+  text-align: center;
 }
 .western{
     margin-top: 50px;
+    display: flex;
 }
 button{
     width: 160px;
