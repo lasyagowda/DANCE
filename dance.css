@@ -23,24 +23,39 @@ body{
 }
 .western1{
     display: flex;
-   
-    gap: 100px;
+    gap: 500px;
 }
 .western2{
-    margin-top: 50px;
-  margin-left: 60px;
-  text-align: center;
-}
-.western{
-    margin-top: 50px;
-    display: flex;
-}
-button{
-    width: 160px;
-    height: 50px;
-    background-color:purple;
-    color:black;
+    margin-left: 100px;
+    
 }
 h1{
     color: white;
+    font-family: cursive;
+    
+}
+.western{
+margin-top: 50px;
+}
+p{
+    color: white;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+button{
+background-color:black;
+color: white;
+width: 100px;
+height: 40px;
+margin-top: 80px;
+font-size: larger;
+}
+h2{
+    margin-top: 10px;
+    color: white;
+}
+.dancers{
+    display: flex;
+    text-align: center;
+    gap: 500px;
 }
