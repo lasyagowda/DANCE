@@ -5,7 +5,7 @@ body{
 }
 .form1{
     display: flex;
-    
+
 
 }
 .form2{
@@ -41,6 +41,7 @@ p{
     color: white;
     margin-bottom: 50px;
     font-size: larger;
+    font-family: cursive;
 }
 button{
 background-color:black;
@@ -57,5 +58,21 @@ h2{
 .dancers{
     display: flex;
     text-align: center;
-    gap: 500px;
+     gap:300px ;
+     font-family: cursive;
+     margin-bottom: 100px;
+    }
+.mam{
+    margin-left: 400px;
+}
+.sir{
+    
+}
+.forms{
+    margin-top: 100px;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-family: cursive;
 }
