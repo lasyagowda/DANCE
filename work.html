@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCE REGISTER FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Your existing CSS styles here */
+    </style>
+</head>
+
+<body>
+
+    <h1>DANCE CLASS REGISTRATION FORM</h1>
+    <div class="image" id="danceImage"></div>
+    <div class="login">
+        <p>Enter your Name: <input type="text" placeholder="Text"></p>
+        <p>Enter your E-Mail: <input type="text" placeholder="e-mail"></p>
+        <button onclick="hideImage()">Click me</button>
+    </div>
+
+    <script>
+        function hideImage() {
+            var danceImage = document.getElementById('danceImage');
+            danceImage.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

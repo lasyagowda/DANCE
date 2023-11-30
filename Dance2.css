@@ -1,7 +1,9 @@
 h1 {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: rgb(255, 0, 200);
+  font-family: cursive;
+  background-color: white;
+  color: black;
+  margin-top: 0;
 }
 p {
   font-size: x-large;
@@ -11,7 +13,7 @@ body {
   background-color: black;
   color: white;
   font-size: large;
-  gap: 100px;
+  gap: 80px;
 }
 button {
   background-color: black;
@@ -24,7 +26,21 @@ button {
 
 * {
   background-repeat: no-repeat;
+  
 }
 body-background {
   margin-left: 100pxz;
+}
+.he:hover{
+  transform:scale(1.1);
+  transition: .5s;
+  
+  box-shadow: 1px 1px 35px blue, -1px -1px 1px blue;
+}
+@media (max-width:600px){
+  .container1{
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+  }
 }
