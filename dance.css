@@ -33,10 +33,7 @@ body {
 }
 .western2 {
   margin-left: 100px;
-  border-radius: 38px;
-  background: linear-gradient(145deg, black, black);
-  box-shadow: 5px 5px 35px white, -5px -5px 35px white;
-  color: white;
+  
 }
 h1 {
   color: white;
@@ -96,29 +93,15 @@ h4 {
   text-align: center;
   font-family: cursive;
 }
-.western3 {
-  border-radius: 38px;
-  background: linear-gradient(145deg, black, black);
-  box-shadow: 5px 5px 35px white, -5px -5px 35px white;
-  color: white;
-}
-.western4 {
-  margin-top: 50px;
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 38px;
-  background: linear-gradient(145deg, black, black);
-  box-shadow: 5px 5px 35px white, -5px -5px 35px white;
-  color: white;
-}
+
+
 h3 {
   color: white;
 }
+
 .design:hover {
   transform: scale(1.1);
   transition: 0.5s;
-
-  box-shadow: 1px 1px 35px white, -1px -1px 1px white;
 }
 @media (max-width: 600px) {
   .container1 {
@@ -131,8 +114,9 @@ h3 {
 .flip-box {
   background-color: transparent;
   width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  height: 350px;
+  border: 3px solid #f1f1f1;
+  border-radius: 5px;
   perspective: 1000px;
 }
 
@@ -167,4 +151,26 @@ h3 {
   background-color: black;
   color: white;
   transform: rotateY(180deg);
+}
+.flex-form{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+ 
+  align-items: center;
+}
+img{
+  border-radius: 10px;
+}
+.he{
+  display: flex;
+  gap: 300px;
+}
+.she{
+  display: flex;
+  gap:300px;
+}
+.western1{
+  margin-left: 300px;
+  margin-bottom: 50px;
 }
