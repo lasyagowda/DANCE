@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    margin-top: 300px;
+    text-shadow: 2px -12px 3px white;
+   color: black;
+   font-size: 40px;
+}
+span{
+    color: black;
+    margin-left: 500px;
+    text-shadow: 2px -12px 3px white;
+    font-size: 40px;
+  
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.main{
+    display: flex;
+    gap: 300px;
+}
+.image{
+    width: 500px;
+   }
+* {
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left top;
+    margin: 0;
+      
+  }

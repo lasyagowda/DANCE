@@ -10,7 +10,8 @@ h1 {
   text-align: center;
   font-family: italic;
   background-color: white;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
+  
   color: black;
 }
 .login {
@@ -38,7 +39,7 @@ h1 {
 
 p {
   font-size: x-large;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
 }
 .image {
   width: 500px;

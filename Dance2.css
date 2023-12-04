@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-family: cursive;
+ 
   background-color: white;
   color: black;
   margin-top: 0;
@@ -13,12 +13,15 @@ body {
   background-color: black;
   color: white;
   font-size: large;
+  font-family:  'Signika', sans-serif;
   gap: 80px;
 }
 button {
   background-color: black;
   color: white;
-  margin-left: 750px;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin-left: 50px;
   margin-top: 50px;
   width: 80px;
   height: 30px;
@@ -43,4 +46,29 @@ body-background {
     padding-left: 10px;
     align-items: center;
   }
+}
+.register-flex{
+  display: flex;
+  gap:50px;
+}
+.register{
+  padding-top: 100px;
+}
+td{
+  padding: 10px;
+}
+input{
+
+  height: 25px;
+  border-radius: 7px;
+  border: 3px solid black;
+}
+select{
+  height: 35px;
+  border-radius: 7px;
+  border: 3px solid black;
+
+}
+label{
+  font-family:  'Signika', sans-serif;
 }

@@ -3,56 +3,18 @@ body {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.form1 {
-  display: flex;
-}
-.form2 {
-  margin-top: 50px;
-  margin-left: 150px;
- border-radius: 38px;
-  color: white;
-}
-.form3 {
-  margin-top: 50px;
-  margin-left: 450px;
-  border-radius: 50px;
 
-  color: white;
-}
-.form4 {
-  margin-top: 50px;
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 38px;
 
-  color: white;
-}
-.western1 {
-  display: flex;
-  gap: 500px;
-}
-.western2 {
-  margin-left: 100px;
-  
-}
 h1 {
   color: white;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
 }
-.western {
-  margin-top: 50px;
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 38px;
-  background: linear-gradient(145deg, black, black);
-  box-shadow: 5px 5px 35px white, -5px -5px 35px white;
-  color: white;
-}
+
 p {
   color: white;
   margin-bottom: 50px;
   font-size: larger;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
   text-align: center;
 }
 button {
@@ -71,30 +33,19 @@ h2 {
   display: flex;
   text-align: center;
   gap: 300px;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
   margin-bottom: 100px;
 }
 .mam {
   margin-left: 400px;
 }
 
-.forms {
-  margin-top: 100px;
-  text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 50px;
-  background: linear-gradient(100deg, black, black);
-  box-shadow: 5px 5px 35px white, -5px -5px 35px white;
-  color: white;
-}
+
 h4 {
   color: white;
   text-align: center;
-  font-family: cursive;
+  font-family:  'Signika', sans-serif;
 }
-
-
 h3 {
   color: white;
 }
@@ -162,15 +113,12 @@ h3 {
 img{
   border-radius: 10px;
 }
-.he{
-  display: flex;
-  gap: 300px;
-}
 .she{
   display: flex;
   gap:300px;
 }
-.western1{
-  margin-left: 300px;
-  margin-bottom: 50px;
+
+.he{
+display: flex;
+gap: 300px;
 }
