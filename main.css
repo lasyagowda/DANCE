@@ -1,38 +1,53 @@
 body{
     background-color: black;
     color: white;
-}
-h1{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/06/17/06/ballerinas-1376250_1280.jpg");
+    width: 50px;
+    background-size: 1550px 900px
+  }
+  h1{
     margin-top: 300px;
-    text-shadow: 2px -12px 3px white;
-   color: black;
+   color: white;
    font-size: 40px;
-}
-span{
-    color: black;
+   font-family:  'Signika', sans-serif;
+   margin-left: 80px;
+  }
+  span{
+    color: white;
     margin-left: 500px;
-    text-shadow: 2px -12px 3px white;
-    font-size: 40px;
+   font-size: 40px;
   
-}
-h2{
+  }
+  h2{
     text-align: center;
     background-color: white;
     color: black;
-    font-size: 40px;
-    margin-top: 0px;
-}
-.main{
+    font-size: 30px;
+    margin-top: 10px;
+    width: 1600px;
+    font-family:  'Signika', sans-serif;
+    height: 50px;
+  }
+  .main{
     display: flex;
     gap: 300px;
-}
-.image{
+  }
+  .image{
     width: 500px;
    }
-* {
+  * {
     background-repeat: no-repeat;
     background-size:contain;
     background-position: left top;
     margin: 0;
       
+  }
+  button{
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family:  'Signika', sans-serif;
+    
   }

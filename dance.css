@@ -6,8 +6,9 @@ body {
 
 
 h1 {
-  color: white;
+  color: black;
   font-family:  'Signika', sans-serif;
+  background-color: white;
 }
 
 p {
