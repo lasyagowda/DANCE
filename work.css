@@ -1,39 +1,11 @@
 body{
-    background-color: black;
-    color: white;
-    background-image: url("https://images.pexels.com/photos/13604383/pexels-photo-13604383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    
-    background-size: 1550px 800px
-  }
- 
-  h2{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    background-color: white;
-    color: black;
-    font-size: 30px;
-    margin-top: 10px;
-    width: 1600px;
-    font-family: 'Signika', sans-serif;
-    height: 50px;
-  }
-  
-  * {
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: left top;
-    margin: 0;
-      
-  }
-  button{
-    height: 30px;
-    background-color: black;
-    color: white;
-    margin-left: 150px;
-    margin-top: 30px;
-    font-family: 'Abril Fatface', serif;
-    font-size: 26px; 
-  }
-  .bird{
+    width: 90vh;
+    background-color: antiquewhite;
+}
+.bird{
     background: white;
     border-radius: 50% 50% 20% 20%;
     color: white;
