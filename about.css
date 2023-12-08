@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  h1 {
+    color: black;
+    font-family:  'Signika', sans-serif;
+    background-color: white;
+  }
+  
+  p {
+    color: white;
+    margin-bottom: 50px;
+    font-size: larger;
+    font-family:  'Signika', sans-serif;
+    text-align: center;
+  }
+  .she{
+    display: flex;
+    gap:300px;
+  }
+  
+  .he{
+  display: flex;
+  gap: 300px;
+  }
+  .dancers {
+    display: flex;
+    text-align: center;
+    gap: 300px;
+    font-family:  'Signika', sans-serif;
+    margin-bottom: 100px;
+  }
+  .mam {
+    margin-left: 400px;
+  }
+  h2{
+    color: white;
+  }
+  h3 {
+    color: white;
+  }

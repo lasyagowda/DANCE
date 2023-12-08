@@ -1,33 +1,97 @@
-<sytle>
-    <style>
-      @keyframes colorChange {
-        0% {
-          color: white;
-        }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("https://i.pinimg.com/originals/a7/d9/de/a7d9de5f13a7ce6e6c7ce4becd444348.jpg");
+      background-repeat: no-repeat;
+      background-size: 900px 800px;
+    
+    }
 
-        25% {
-          color: white;
-        }
+    form {
+      background-color: black;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px white;
+      width: 300px;
+      text-align: center;
+    }
 
-        50% {
-          color: black;
-        }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: white;
+    }
 
-        75% {
-          color: white;
-        }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
 
-        100% {
-          color: white;
-        }
-      }
+    button {
+      background-color: #af5e4c;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
 
-      .animated-text {
-        margin-top: 300px;
-        font-size: 50px;
-        font-family: 'Abril Fatface', serif;
-        margin-left: 50px;
-        animation: colorChange 5s infinite;
-}
-    </style>
-  </sytle>
+    button:hover {
+      background-color: #a07b45;
+    }
+    h1{
+      margin-bottom: 500px;
+      color: white;
+      margin-left: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SIGN UP!!</h1>
+
+  <form id="signupForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" onclick="validateForm()">Sign Up</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      var username = document.getElementById('username').value;
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+
+      // Perform additional validation if needed
+
+      alert('Sign-up successful!\nUsername: ' + username + '\nEmail: ' + email);
+    }
+  </script>
+
+</body>
+</html>
