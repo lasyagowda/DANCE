@@ -39,7 +39,52 @@ body {
   }
   h2{
     color: white;
+    font-family:  'Signika', sans-serif;
   }
   h3 {
     color: white;
+    gap: 50px;
+  }
+  .about{
+    display: flex;
+  }
+  .about1{
+    margin-left: 100px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, black,black);
+    box-shadow:  5px 5px 35px white,
+    -5px -5px 35px white;
+        color: white;
+  }
+  .about2{
+    margin-left: 500px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, black,black);
+    box-shadow:  5px 5px 35px white,
+    -5px -5px 35px white;
+        color: white;
+        justify-content: center;
+  }
+  .weightloss{
+    display: flex;
+  }
+  .weightloss1{
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, black,black);
+    box-shadow:  5px 5px 35px white,
+    -5px -5px 35px white;
+        color: white;
+       
+  }
+  .weightloss2{
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, black,black);
+    box-shadow:  5px 5px 35px white,
+    -5px -5px 35px white;
+    color: white;
+       
   }
