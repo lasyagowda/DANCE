@@ -10,14 +10,18 @@
       background-color: black;
       margin: 0;
       padding: 0;
-      display: flex;
+      
       justify-content: center;
       align-items: center;
       height: 100vh;
       background-image: url("https://i.pinimg.com/originals/a7/d9/de/a7d9de5f13a7ce6e6c7ce4becd444348.jpg");
       background-repeat: no-repeat;
       background-size: 900px 800px;
+      margin-right: 50px;
     
+    }
+    .forms{
+        padding-left: 600px;
     }
 
     form {
@@ -26,7 +30,8 @@
       border-radius: 8px;
       box-shadow: 0 0 10px white;
       width: 300px;
-      text-align: center;
+      align-items: center;
+    
     }
 
     label {
@@ -59,15 +64,16 @@
       background-color: #a07b45;
     }
     h1{
-      margin-bottom: 500px;
+        padding-top: 200px;
+    text-align: center;
       color: white;
-      margin-left: 400px;
+      
     }
   </style>
 </head>
 <body>
   <h1>SIGN UP!!</h1>
-
+<div class="forms">
   <form id="signupForm">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" required>
@@ -80,6 +86,7 @@
 
     <button type="button" onclick="validateForm()">Sign Up</button>
   </form>
+</div>
 
   <script>
     function validateForm() {

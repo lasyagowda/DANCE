@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>main page</title>
   <link rel="stylesheet" href="main.css">
+  
   <style>
     body {
       margin: 0;
@@ -13,6 +14,7 @@
     }
     
     .topnav {
+      height: 30px;
       overflow: hidden;
       background-color: white;
     }
@@ -36,10 +38,37 @@
       background-color:white;
       color: black;
     }
-    </style>
+
+    /* Style for the video container */
+    #video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* 100% of the viewport height */
+      overflow: hidden;
+    }
+
+    /* Style for the video element */
+    #myVideo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    }
+
+    /* Style for the text overlay */
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: left;
+      font-size: 24px;
+      left: 20%;
+    }
+  </style>
 </head>
 <body>
-  
+  <a href="about.html">Go to About Page</a>
   <h2>DANCE VORTEX STUDIO</h2>
   <div class="topnav">
     <a class="active" href="#home">Register</a>
@@ -47,12 +76,18 @@
     <a href="#contact">About</a>
     <a href="#about">Home</a>
   </div>
-  
-  
-  <h1> The Biggest Online
-    Platform<br> for Learning Dance
-  </h1>
-  <button>CHECK OUT</button>
-</body>
 
+  <!-- Video Container -->
+  <div id="video-container">
+    <video autoplay muted loop id="myVideo">
+      <source src="C:\Users\lasya\OneDrive\Desktop\dance\western (1).mp4" type="video/mp4">
+    </video>
+
+    <!-- Text Overlay -->
+    <div class="text-overlay">
+      <h1>The Biggest Online Platform<br> for Learning Dance</h1>
+      <button>CHECK OUT</button>
+    </div>
+  </div>
+</body>
 </html>

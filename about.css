@@ -1,90 +1,141 @@
 body {
-    background-color: black;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  
-  h1 {
-    color: black;
-    font-family:  'Signika', sans-serif;
-    background-color: white;
-  }
-  
-  p {
-    color: white;
-    margin-bottom: 50px;
-    font-size: larger;
-    font-family:  'Signika', sans-serif;
-    text-align: center;
-  }
-  .she{
-    display: flex;
-    gap:300px;
-  }
-  
-  .he{
+  background-color: black;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+  color: black;
+  font-family:  'Signika', sans-serif;
+  background-color: white;
+}
+
+
+.she{
   display: flex;
+  gap:300px;
+}
+
+.he{
+display: flex;
+gap: 300px;
+}
+h4{
+  color: white;
+  margin-bottom: 50px;
+  font-size: larger;
+  font-family:  'Signika', sans-serif;
+  text-align: center;
+}
+.dancers {
+  display: flex;
+  text-align: center;
   gap: 300px;
-  }
-  .dancers {
-    display: flex;
-    text-align: center;
-    gap: 300px;
-    font-family:  'Signika', sans-serif;
-    margin-bottom: 100px;
-  }
-  .mam {
-    margin-left: 400px;
-  }
-  h2{
-    color: white;
-    font-family:  'Signika', sans-serif;
-  }
-  h3 {
-    color: white;
-    gap: 50px;
-  }
+  font-family:  'Signika', sans-serif;
+  margin-bottom: 100px;
+}
+.mam {
+  margin-left: 400px;
+}
+h2{
+  color: white;
+  font-family:  'Signika', sans-serif;
+  padding-bottom: 10px;
+}
+h3 {
+  color: white;
+  gap: 50px;
+}
+.about{
+  display: flex;
+  margin-top: 50px;
+}
+.about1{
+  width: 400px;
+  height: 200px;
+  margin-left: 150px;
+  border-radius: 38px;
+  background: linear-gradient(105deg, black,black);
+  box-shadow:  5px 5px 15px white,
+  -5px -5px 35px white;
+      color: white;
+}
+.about2{
+  width: 400px;
+  height: 200px;
+  margin-left: 400px;
+  border-radius: 38px;
+  background: linear-gradient(105deg, black,black);
+  box-shadow:  5px 5px 15px white,
+  -5px -5px 35px white;
+      color: white;
+      justify-content: center;
+}
+.weightloss{
+  display: flex;
+  margin-top: 50px;
+}
+.weightloss1{
+  width: 400px;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: 100px;
+  border-radius: 38px;
+  background: linear-gradient(145deg, black,black);
+  box-shadow:  5px 5px 35px white,
+  -5px -5px 35px white;
+      color: white;
+     
+}
+.weightloss2{
+  width: 400px;
+  height: 200px;
+  margin-left: 400px;
+  margin-top: 100px;
+  border-radius: 38px;
+  background: linear-gradient(145deg, black,black);
+  box-shadow:  5px 5px 35px white,
+  -5px -5px 35px white;
+  color: white;
+     
+}
+p{
+  text-align: justify;
+  margin: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  font-family:  'Signika', sans-serif;;
+}
+@media (max-width:600px){
   .about{
-    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
   }
-  .about1{
-    margin-left: 100px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, black,black);
-    box-shadow:  5px 5px 35px white,
-    -5px -5px 35px white;
-        color: white;
-  }
-  .about2{
-    margin-left: 500px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, black,black);
-    box-shadow:  5px 5px 35px white,
-    -5px -5px 35px white;
-        color: white;
-        justify-content: center;
-  }
+}
+.about:hover{
+  transform:scale(1.1);
+  transition: .5s;
+}
+@media (max-width:600px){
   .weightloss{
-    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
   }
-  .weightloss1{
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, black,black);
-    box-shadow:  5px 5px 35px white,
-    -5px -5px 35px white;
-        color: white;
-       
-  }
-  .weightloss2{
-    margin-left: 500px;
-    margin-top: 100px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, black,black);
-    box-shadow:  5px 5px 35px white,
-    -5px -5px 35px white;
-    color: white;
-       
-  }
+}
+.weightloss:hover{
+  transform:scale(1.1);
+  transition: .5s;
+}
+button{
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family: 'Abril Fatface', serif;
+  font-size: 26px; 
+  text-align: center;
+}
