@@ -3,102 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up</title>
+  <title>Styled Text with JavaScript</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: black;
-      margin: 0;
-      padding: 0;
-      
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-image: url("https://i.pinimg.com/originals/a7/d9/de/a7d9de5f13a7ce6e6c7ce4becd444348.jpg");
-      background-repeat: no-repeat;
-      background-size: 900px 800px;
-      margin-right: 50px;
-    
-    }
-    .forms{
-        padding-left: 600px;
-    }
-
-    form {
-      background-color: black;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px white;
-      width: 300px;
-      align-items: center;
-    
-    }
-
-    label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: bold;
-      color: white;
-    }
-
-    input {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 16px;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
-    button {
-      background-color: #af5e4c;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    /* Define a class for styling */
+    .styled-text {
+      color: blue;
       font-size: 16px;
-    }
-
-    button:hover {
-      background-color: #a07b45;
-    }
-    h1{
-        padding-top: 200px;
-    text-align: center;
-      color: white;
-      
+      font-family: Arial, sans-serif;
     }
   </style>
 </head>
 <body>
-  <h1>SIGN UP!!</h1>
-<div class="forms">
-  <form id="signupForm">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-
-    <button type="button" onclick="validateForm()">Sign Up</button>
-  </form>
-</div>
+  <p id="myParagraph">This is a paragraph.</p>
 
   <script>
-    function validateForm() {
-      var username = document.getElementById('username').value;
-      var email = document.getElementById('email').value;
-      var password = document.getElementById('password').value;
+    // Get the element by its ID
+    var paragraph = document.getElementById("myParagraph");
 
-      // Perform additional validation if needed
-
-      alert('Sign-up successful!\nUsername: ' + username + '\nEmail: ' + email);
-    }
+    // Add a class to the element
+    paragraph.classList.add("styled-text");
   </script>
-
 </body>
 </html>
+<script>
+  // Get the element by its ID
+  var paragraph = document.getElementById("myParagraph");
+
+  // Directly manipulate style properties
+  paragraph.style.color = "red";
+  paragraph.style.fontSize = "20px";
+  paragraph.style.fontFamily = "Georgia, serif";
+</script>
