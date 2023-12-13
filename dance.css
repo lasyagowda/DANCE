@@ -148,5 +148,31 @@ gap: 300px;
   background-color:white;
   color: black;
 }
-
+.dark-mode{
+  background-color: white;
+  color: black;
+  
+}
+.light{
+  background:white;
+  border: solid 2px black;
+  box-shadow:  5px 5px 15px black,
+  -5px -5px 35px black;
+}
+.head{
+  color: black;
+}
+.nava{
+  border: solid 6px black;
+}
+button{
+  margin-right: 1100px;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+.btns{
+  background:black;
+  color: white;
+}
 

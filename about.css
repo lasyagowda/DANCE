@@ -1,22 +1,31 @@
 @media (max-width: 600px) {
   body {
     text-align: center;
+    
   }
 }
 
 body {
   background-color: black;
+  color: white;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 h1 {
-  color: black;
+  
   font-family:  'Signika', sans-serif;
-  background-color: white;
+  
   margin-bottom: 0;
+  
 }
+.navs{
+  border: solid 6px white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
 
 
 .she{
@@ -29,7 +38,7 @@ display: flex;
 gap: 300px;
 }
 h4{
-  color: white;
+ 
   margin-bottom: 50px;
   font-size: larger;
   font-family:  'Signika', sans-serif;
@@ -46,12 +55,12 @@ h4{
   margin-left: 400px;
 }
 h2{
-  color: white;
+ 
   font-family:  'Signika', sans-serif;
   padding-bottom: 10px;
 }
 h3 {
-  color: white;
+  
   gap: 50px;
 }
 .about{
@@ -141,13 +150,13 @@ p{
   margin-top: 0;
   height: 30px;
   overflow: hidden;
-  background-color: white;
+ 
   padding-bottom: 10px;
 }
 
 .topnav a {
   float: right;
-  color: black;
+  
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
@@ -164,4 +173,30 @@ p{
   background-color:white;
   color: black;
 }
-
+.dark-mode{
+  background-color: white;
+  color: black;
+  
+}
+.light{
+  background:white;
+  border: solid 2px black;
+  box-shadow:  5px 5px 15px black,
+  -5px -5px 35px black;
+}
+.head{
+  color: black;
+}
+.nava{
+  border: solid 6px black;
+}
+button{
+  margin-right: 1100px;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+.btns{
+  background:black;
+  color: white;
+}
