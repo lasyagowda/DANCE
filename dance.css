@@ -107,14 +107,15 @@ h3 {
   flex-direction: column;
   gap: 50px;
  
-  align-items: center;
+align-items: center;
 }
 img{
   border-radius: 10px;
 }
-.she{
+
+.western-dance-container{
   display: flex;
-  gap:300px;
+  gap: 300px;
 }
 
 .he{
@@ -166,13 +167,15 @@ gap: 300px;
   border: solid 6px black;
 }
 button{
-  margin-right: 1100px;
+ width: 150px;
   padding: 10px;
   border-radius: 10px;
+  color: white;
+  margin-bottom: 0;
  
 }
 .btns{
   background:black;
   color: white;
+margin-bottom: 0;
 }
-

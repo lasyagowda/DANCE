@@ -14,9 +14,9 @@ body {
 
 
 h1 {
-  
+  background-color: white;
+  color: black;
   font-family:  'Signika', sans-serif;
-  
   margin-bottom: 0;
   
 }
@@ -25,21 +25,16 @@ h1 {
   border-radius: 10px;
   margin-bottom: 30px;
 }
-
-
-
 .she{
   display: flex;
   gap:300px;
 }
-
 .he{
 display: flex;
 gap: 300px;
 }
 h4{
- 
-  margin-bottom: 50px;
+ margin-bottom: 50px;
   font-size: larger;
   font-family:  'Signika', sans-serif;
   text-align: center;
@@ -150,13 +145,13 @@ p{
   margin-top: 0;
   height: 30px;
   overflow: hidden;
- 
+  background-color: white;
   padding-bottom: 10px;
 }
 
 .topnav a {
   float: right;
-  
+  color: black;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
@@ -191,12 +186,14 @@ p{
   border: solid 6px black;
 }
 button{
-  margin-right: 1100px;
   padding: 10px;
   border-radius: 10px;
- 
-}
+ }
 .btns{
   background:black;
   color: white;
+  text-align: center;
+}
+.btn{
+  text-align: center;
 }

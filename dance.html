@@ -12,13 +12,13 @@
 </head>
 
 <body>
- 
-  <h1>
+  <div class="navs" id="navas1">
+ <h1>
     <marquee>Indian Dance Forms</marquee>
   </h1>
   
   <div class="topnav">
-    <button id="btn"onclick="myFunction()">Light mode</button>
+
     <a class="active" href="dance2.html">Register</a>
     <a href="dance.html">Dance Forms</a>
     <a href="about.html">About</a>
@@ -53,7 +53,7 @@
           </div>
           <div class="flip-box-back">
             <h2>Kathak</h2>
-            <p>Kathak is characterized by intricate footwork and precise rhythmic patterns that the dancer articulates
+            <p >Kathak is characterized by intricate footwork and precise rhythmic patterns that the dancer articulates
               by controlling about 100 ankle bells.
               It takes its movements from life, stylizes them, and adds the complex rhythmic patterns.
               Kathak is danced by both males and females; many of the dances convey moods of love.</p>
@@ -73,7 +73,7 @@
           </div>
           <div class="flip-box-back">
             <h2>Yakshagana</h2>
-            <p>yakshagana, dance-drama of South India, associated most strongly with the state of Karnataka.
+            <p >yakshagana, dance-drama of South India, associated most strongly with the state of Karnataka.
               Elaborate and colourful costumes, makeup, and masks constitute some of the most-striking features of the
               art form. Traditionally,
               yakshagana was performed in the open air troupes sponsored by various Hindu temples.</p>
@@ -94,8 +94,8 @@
             width="300" height="350">
         </div>
         <div class="flip-box-back">
-          <h2>Manipuri</h2>
-          <p>The Manipuri Dance, also referred to as the Manipuri Raas Leela, is a jagoi and is one of the major Indian
+          <h2 >Manipuri</h2>
+          <p >The Manipuri Dance, also referred to as the Manipuri Raas Leela, is a jagoi and is one of the major Indian
             classical dance forms,
             originating from the state of Manipur.
             It is one of the greatest cultural achievements of the traditional Vaishnavism adhering Meitei people of
@@ -105,7 +105,7 @@
     </div>
     <div>
       <!-- Add Manipuri description here -->
-
+      
 
 
 
@@ -116,7 +116,7 @@
       <div class="flip-box">
         <div class="flip-box-inner">
           <div class="flip-box-front">
-
+            <div class="about1" id="2abt1"></div>
             <img
               src="https://www.tnwensembletheater.org/uploads/1/2/9/5/129591762/745bd2e1f4847f0fcbae87cb97ee84d1_orig.jpg"
               alt="Manipuri" width="300" height="350">
@@ -132,11 +132,16 @@
         </div>
       </div>
     </div>
-    <div class="she">
+
+  
+    <div class="western-dance-container">
+      <!-- Your existing flip-box elements for Tap Dance, Contemporary, Free-Style, and Hip-Hop go here -->
+  
+  
       <div class="flip-box">
         <div class="flip-box-inner">
           <div class="flip-box-front">
-
+            <div class="about2" id="2abt2"></div>
             <img
               src="https://mymodernmet.com/wp/wp-content/uploads/archive/ltcJBSHt6MPOsGDuZK7x_vadimsteinblackandwhitedance10.jpg"
               alt="Manipuri" width="300" height="350">
@@ -154,7 +159,7 @@
       <div class="flip-box">
         <div class="flip-box-inner">
           <div class="flip-box-front">
-
+            <div class="about3" id="2abt3">
             <img src="https://c8.alamy.com/comp/HTF55C/hip-hop-dancers-HTF55C.jpg" alt="Manipuri" width="300"
               height="350">
           </div>
@@ -166,24 +171,22 @@
               laid the foundations of American modern dance with their choreography and teaching.
 
             </p>
-          </div>
+          
         </div>
       </div>
-
+     </div>
     </div>
-
-
-
-
-    <div class="flip-box">
+  </div>
+     <div class="flip-box">
       <div class="flip-box-inner">
         <div class="flip-box-front">
-
+          <div class="about4" id="2abt4">
           <img
             src="https://ca-times.brightspotcdn.com/dims4/default/95aa97b/2147483647/strip/true/crop/2083x2500+0+250/resize/375x450!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F99%2Fe5%2Fcee695804736bd588bbb5f101760%2Fl4-dance-89307.sff"
             alt="Hip-Hop" width="300" height="350">
         </div>
         <div class="flip-box-back">
+          
           <h2>Hip-Hop</h2>
           <p>Hip hop or hip-hop is a culture and art movement that was created by African Americans pioneered from Black
             American street culture,
@@ -193,6 +196,11 @@
       </div>
     </div>
   </div>
+ </div>
+  </div>
+  <div id="btn-container">
+  <button id="btn"onclick="myFunction()">Light mode</button>
+</div>
   <script>
     function myFunction() {
        var element = document.body;
