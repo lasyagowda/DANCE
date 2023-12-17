@@ -3,8 +3,6 @@ body {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 h1 {
   color: black;
   font-family:  'Signika', sans-serif;
@@ -115,6 +113,7 @@ img{
 
 .western-dance-container{
   display: flex;
+  justify-content: center;
   gap: 300px;
 }
 
@@ -165,6 +164,9 @@ gap: 300px;
 }
 .nava{
   border: solid 6px black;
+}
+#abtt{
+margin-left: 600px;
 }
 button{
  width: 150px;
