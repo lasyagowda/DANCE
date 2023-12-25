@@ -95,5 +95,21 @@
           });
         }
       </script>
+       <script>
+        function myFunction() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+      
+          // Assuming these IDs exist in your HTML
+          var elementsToToggle = ["2abt1", "2abt2", "btn", "2abt3", "2abt4", "3heading1", "3heading2", "3heading3", "3heading4", "para1", "para2", "para3", "para4", "navas1"];
+      
+          elementsToToggle.forEach(function (id) {
+            var helo = document.getElementById(id);
+            if (helo) {
+              helo.classList.toggle("light");
+            }
+          });
+        }
+      </script>
         </body>
         </html>
